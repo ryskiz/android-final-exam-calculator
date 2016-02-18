@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Final Grade Calculator</string>
+    <string name="grade_amount_label">Current Grade</string>
+    <string name="desired_grade_label">Desired Grade</string>
+    <string name="final_percent_label">Final Worth</string>
+    <string name="current_grade_editTxt">0</string>
+    <string name="desired_grade_editTxt">0</string>
+    <string name="gradeNeededToPass">Required Exam Score</string>
+    <string name="amountNeeded">0%</string>
+    <string name="seekbar_percentView">50%</string>
+    <string name="about">This app helps you (student) on finals week by calculating what you need on your final exam! Study hard!</string>
+</resources>

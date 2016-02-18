@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.Material">
+        <!-- Customize your theme here. -->
+        <item name="android:textViewStyle">@style/TextView</item>
+        <item name="editTextStyle">@style/EditText</item>
+        <item name="buttonStyle">@style/Button</item>
+    </style>
+
+    <style name="TextView" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="EditText" parent="@style/TextView">
+        <item name="android:textSize">20sp</item>
+        <item name="android:ems">8</item>
+    </style>
+
+    <style name="Button" parent="Widget.AppCompat.Button">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- This style needs to be applied manually -->
+    <style name="TextView.Label">
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">10dp</item>
+    </style>
+</resources>
